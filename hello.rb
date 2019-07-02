@@ -1,12 +1,17 @@
-signal = gets.chomp
+#while
+# i = 0
 
-case signal
- 	when "red"
- 		puts "stoop!"
- 	when "green" , "blue"
- 		puts "go!"
- 	when "yellow"
- 		puts "caution!"
- 	else
- 		puts "wrong signal"
-end
+# while i < 10 do
+
+# 	puts "#{i}:hello"
+# 	i += 1
+# end
+
+#times 回数決まっている場合便利！！
+
+# 10.times do |i|
+# 	puts "#{i}: hello"
+# end
+
+
+10.times {|i| puts "#{i}: hello"}
