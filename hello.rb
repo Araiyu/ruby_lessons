@@ -1,10 +1,12 @@
+signal = gets.chomp
 
-score = gets.to_i
-
-if score > 80
-	puts "Great!"
-elsif score >60
-	puts "good"
-else
-	puts "so so..."
+case signal
+ 	when "red"
+ 		puts "stoop!"
+ 	when "green" , "blue"
+ 		puts "go!"
+ 	when "yellow"
+ 		puts "caution!"
+ 	else
+ 		puts "wrong signal"
 end
