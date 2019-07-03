@@ -1,12 +1,15 @@
-#メソッド
+#クラス
+ class User
+ 	def initialize(name)
+ 		@name = name
+ 	end
+ 	def sayHi
+ 		puts "hi! i am #{@name}"
+ 	end
+ end
 
-def syaHi(name = "tom") #引数
-	# puts "hi! #{name} "
-	score = 80
-	return "hi! #{name}"
-end
+ tom = User.new("tom")
+ tom.sayHi
 
-# syaHi "taguchi"
-# syaHi
-p syaHi
-p score
+ bob = User.new("bob")
+ bob.sayHi
