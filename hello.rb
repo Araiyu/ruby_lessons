@@ -1,5 +1,9 @@
 #クラス
  class User
+
+ 	attr_accessor :name
+ 	#setter: name=(value)
+
  	def initialize(name)
  		@name = name
  	end
@@ -9,7 +13,9 @@
  end
 
  tom = User.new("tom")
- tom.sayHi
 
- bob = User.new("bob")
- bob.sayHi
+
+ tom.name = "tom Jr"
+ p tom.name
+
+tom.sayHi
