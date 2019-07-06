@@ -1,4 +1,4 @@
-#クラス
+#クラスメソッド
  class User
 
  	attr_accessor :name
@@ -10,6 +10,7 @@
  	def sayHi
  		puts "hi! i am #{@name}"
  	end
+ 	def self.info
  end
 
  tom = User.new("tom")
@@ -19,3 +20,4 @@
  p tom.name
 
 tom.sayHi
+
