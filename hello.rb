@@ -14,7 +14,6 @@
  end
 
  tom = User.new("tom1")
-
  tom.name = "tom Jr"
  p tom.name
 
