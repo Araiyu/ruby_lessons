@@ -1,9 +1,7 @@
 #クラスメソッド
  class User
-
  	attr_accessor :name
  	#setter: name=(value)
-
  	def initialize(name)
  		@name = name
  	end
